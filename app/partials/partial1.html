@@ -1,1 +1,16 @@
-<p>This is the partial for view 1.</p>
+<p>Hello, {{firstName}}</p>
+<form>
+	<input type="text" ng-model="first_name" placeholder="{{firstNamePlace}}"/>
+	<input type="text" ng-model="last_name"/>
+	<input type="submit" value="Full Name"/>
+</form>
+
+<div style="border:1px solid black;">
+	<p>{{first_name}} {{last_name}}</p>
+	<p>{{first_name+" "+last_name}}</p>
+</div>
+
+<div>
+	<p>{{data}}</p>
+	<p>{{err}}</p>
+</div>

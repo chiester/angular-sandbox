@@ -1,0 +1,48 @@
+{
+    "status": "ok",
+    "pageNum": 1,
+    "totalPages": 1,
+    "maxResults": 25,
+    "totalResults": 4,
+    "title": "Ticketfly Upcoming Events",
+    "link": "http://www.ticketfly.com/api/events/upcoming.json",
+    "currPage": "http://www.ticketfly.com/api/events/upcoming.json?orgId=1&q=lake street dive&fields=id,name,startDate,ticketPurchaseUrl",
+    "prevPage": "",
+    "nextPage": "",
+    "org": {
+        "id": 1,
+        "name": "Root",
+        "timeZone": "America/New_York",
+        "promoter": false,
+        "orgConfigEvent": {
+            "enableCustomDomain": false,
+            "customDomain": null
+        }
+    },
+    "events": [
+        {
+            "id": 442957,
+            "name": "Lake Street Dive",
+            "startDate": "2014-03-28 22:15:00",
+            "ticketPurchaseUrl": "http://www.ticketfly.com/purchase/event/442957/tfly?utm_medium=api"
+        },
+        {
+            "id": 462743,
+            "name": "Lake Street Dive",
+            "startDate": "2014-04-02 20:30:00",
+            "ticketPurchaseUrl": "http://www.ticketfly.com/purchase/event/462743/tfly?utm_medium=api"
+        },
+        {
+            "id": 432285,
+            "name": "Clearwater Festival Weekend + Camping",
+            "startDate": "2014-06-21 09:00:00",
+            "ticketPurchaseUrl": "http://www.ticketfly.com/purchase/event/432285/tfly?utm_medium=api"
+        },
+        {
+            "id": 496623,
+            "name": "Lake Street Dive",
+            "startDate": "2014-06-24 19:00:00",
+            "ticketPurchaseUrl": "http://www.ticketfly.com/purchase/event/496623/tfly?utm_medium=api"
+        }
+    ]
+}
